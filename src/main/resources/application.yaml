@@ -1,0 +1,52 @@
+#spring:
+#  application:
+#    name: WorkAnniversary
+#  datasource:
+#    password: MMKK123@
+#    url: jdbc:mysql://localhost:3306/work_anniversary_mail
+#    username: root
+#  jpa:
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#mail:
+#  host: smtp.gmail.com
+#  port: 587
+#  username: manpreetkaur622495@gmail.com
+#  password: iarq yjfs kyhm lqca
+#  properties:
+#    mail:
+#      smtp:
+#        starttls:
+#          enable: true
+#        auth: true
+
+
+
+
+spring:
+  application:
+    name: WorkAnniversary
+  datasource:
+    password: Piyush@l1
+    url: jdbc:mysql://localhost:3306/work_anniversary_mail
+    username: root
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+mail:
+  host: smtp.gmail.com
+  port: 587
+  username: piyushsinghlkr2002@gmail.com
+  password: pihe wqet ysfe cmmb
+  properties:
+    mail:
+      smtp:
+        starttls:
+          enable: true
+        auth: true

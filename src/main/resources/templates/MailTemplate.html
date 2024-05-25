@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Work Anniversary</title>
+    <style>
+        .email-container {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+<div class="email-container">
+    <div class="header">
+        <h1>Happy Work Anniversary!</h1>
+    </div>
+    <div class="content">
+        <p>Dear <span th:text="${empName}">Employee Name</span>,</p>
+        <p>Congratulations on your work anniversary! We appreciate your hard work and dedication. Here's to many more successful years together.</p>
+        <p>Best wishes,</p>
+        <p>CMS Team</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 CMS. All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>
